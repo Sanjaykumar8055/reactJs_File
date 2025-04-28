@@ -1,0 +1,38 @@
+/* #root {
+  max-width: auto;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+} */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main{
+  height: auto;
+  border: 2px solid black;
+  margin: 50px;
+}
+.main h1{
+  background-color: aqua;
+  height: 55px;
+}
+.main p{
+  background-color: violet;
+  font-size: 30px;
+  height: 0px;
+  margin: 0px;
+  transition: .3s linear;
+  transform: scaleY(0);
+}
+.show{
+  height: auto !important;
+  transform: scaleY(1) !important;
+}
+.head{
+  background-color: black;
+  font-size: 3rem;
+  color: violet;
+  text-align: center;
+}
