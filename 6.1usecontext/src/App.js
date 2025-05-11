@@ -4,7 +4,7 @@ import Home from './Home';
 import Cotextdata from './store/context-api';
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState();
   return (
     <Cotextdata.Provider value={{darkMode,setDarkMode}}>
       <Home />
